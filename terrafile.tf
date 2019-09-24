@@ -9,7 +9,7 @@ variable "key_name" {}
 provider"aws" {
   access_key = "${var.aws_acess_key}"
   secret_key = "${var.aws_secret_key}"
-  region     = "us-east-1"
+  region     = "us-south-1"
 }
 
 //resources
