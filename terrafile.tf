@@ -9,7 +9,11 @@ variable "key_name" {}
 provider"aws" {
   access_key = "${var.aws_acess_key}"
   secret_key = "${var.aws_secret_key}"
-  region     = "us-south-1"
+<<<<<<< HEAD
+  region     = "us-east-1"
+=======
+  region     = "us-east-1"
+>>>>>>> dev
 }
 
 //resources
@@ -20,4 +24,8 @@ resource "aws_instance" "nginx" {
   key_name  = "${var.key_name}"
 }
 
+<<<<<<< HEAD
 //connection
+=======
+//connection
+>>>>>>> dev
